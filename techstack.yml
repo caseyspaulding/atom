@@ -1,0 +1,1530 @@
+repo_name: caseyspaulding/atom
+report_id: 5dafbd8e66f70941b6242852b9add4a4
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-21T13:28:19+00:00'
+requested_by: darangi
+provider: github
+branch: master
+detected_tools_count: 105
+tools:
+- name: CoffeeScript
+  description: A little language that compiles into JavaScript
+  website_url: http://coffeescript.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/caseyspaulding/atom
+  detection_source: Repo Metadata
+- name: ES6
+  description: The next version of JavaScript
+  website_url: http://www.ecma-international.org/ecma-262/6.0/
+  version: 6.24.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/vsts/package-lock.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/caseyspaulding/atom
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Kevin Sawicki
+  last_updated_on: 2014-10-22 23:12:29.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.9.4
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: runner
+  last_updated_on: 2020-10-22 03:15:56.000000000 Z
+- name: Electron
+  description: Build cross platform desktop apps with JavaScript, HTML, and CSS
+  website_url: http://electron.atom.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package.json
+  detection_source: script/package.json
+  last_updated_by: steven nguyen
+  last_updated_on: 2022-02-28 15:41:56.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/update-server/package-lock.json
+  detection_source: script/update-server/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-09-25 21:25:21.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package.json
+  detection_source: script/package.json
+  last_updated_by: Kevin Sawicki
+  last_updated_on: 2013-11-21 17:43:11.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: spec/fixtures/indentation/jsx.jsx
+  last_updated_by: Christian Fritz
+  last_updated_on: 2021-05-31 00:30:58.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/vsts/package.json
+  detection_source: script/vsts/package.json
+  last_updated_by: darangi
+  last_updated_on: 2021-04-23 15:02:35.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Antonio Scandurra
+  last_updated_on: 2017-03-17 11:40:38.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: Devtron
+  description: Open source software delivery workflow for Kubernetes
+  website_url: https://devtron.ai/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/39947/default_b3c8a7e8457bfd03ea0d205ce00b24dadcde26d1.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: DeeDeeG
+  last_updated_on: 2022-04-12 16:22:34.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/atom
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package.json
+  detection_source: script/package.json
+  last_updated_by: Kevin Sawicki
+  last_updated_on: 2013-11-21 17:43:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/caseyspaulding/atom
+  detection_source: Repo Metadata
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 0.13.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: sadick254
+  last_updated_on: 2020-10-05 06:22:56.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package.json
+  detection_source: script/package.json
+  last_updated_by: Mazen El-Kashef
+  last_updated_on: 2020-07-16 16:18:24.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 1.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 9.2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: runner
+  last_updated_on: 2020-10-29 03:17:18.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 9.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/.travis.yml
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/.travis.yml
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: WebdriverIO
+  description: Webdriver/Selenium 2.0 JavaScript bindings for Node.js
+  website_url: http://webdriver.io/
+  version: 5.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/4185/webdriver.io.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: steven nguyen
+  last_updated_on: 2022-02-07 14:33:33.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 1.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package.json
+  detection_source: script/package.json
+  last_updated_by: Kevin Sawicki
+  last_updated_on: 2013-11-21 17:43:11.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Kevin Sawicki
+  last_updated_on: 2014-10-22 23:12:29.000000000 Z
+- name: Dalek
+  description: Exterminate all the bugs
+  website_url: http://dalekjs.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3531/db2e635ee81656d771a47be05b056b03_normal.jpeg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-10-01 22:33:42.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-08-15 13:56:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/caseyspaulding/atom
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  version: 20.04.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Dr. Bryan Roessler
+  last_updated_on: 2021-01-12 19:32:10.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 15.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/vsts/package-lock.json
+  detection_source: package.json
+  last_updated_by: John Barnette
+  last_updated_on: 2012-09-13 18:25:37.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: darangi
+  last_updated_on: 2020-09-11 12:44:49.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in async
+    cve_id: CVE-2021-43138
+    cve_url: https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+    detected_date: Apr 13
+    severity: high
+    first_patched: 3.2.2
+- name: babel-cli
+  description: Babel command line
+  package_url: https://www.npmjs.com/babel-cli
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15804/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 5.8.38
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Antonio Scandurra
+  last_updated_on: 2017-03-17 11:40:38.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: babel-preset-stage-0
+  description: Babel preset for stage 0 plugins
+  package_url: https://www.npmjs.com/babel-preset-stage-0
+  version: 6.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15846/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Winston Liu
+  last_updated_on: 2019-05-26 01:42:32.000000000 Z
+- name: coffee-script
+  description: Unfancy JavaScript
+  package_url: https://www.npmjs.com/coffee-script
+  version: 1.12.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: sadick254
+  last_updated_on: 2021-08-16 19:18:19.000000000 Z
+- name: coffeelint
+  description: Lint your CoffeeScript
+  package_url: https://www.npmjs.com/coffeelint
+  version: 1.15.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16616/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: packages/autoflow/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-09-10 21:59:53.000000000 Z
+- name: color
+  description: Color conversion and manipulation with CSS string support
+  package_url: https://www.npmjs.com/color
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: runner
+  last_updated_on: 2020-10-10 03:10:33.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Antonio Scandurra
+  last_updated_on: 2016-07-29 15:42:56.000000000 Z
+- name: dedent
+  description: An ES6 string tag that strips indentation from multi-line strings
+  package_url: https://www.npmjs.com/dedent
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17593/default_98adc81594c50d81f495d8c0ddd357e31c4f0a3e.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Damien Guard
+  last_updated_on: 2017-10-23 23:07:41.000000000 Z
+- name: document-register-element
+  description: A stand-alone working lightweight version of the W3C Custom Elements
+    specification
+  package_url: https://www.npmjs.com/document-register-element
+  version: 1.14.10
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18288/default_58902f7546bad08cb3e029d857d71b8ffa2d438c.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sadick
+  last_updated_on: 2021-08-25 19:07:12.000000000 Z
+- name: download
+  description: Download and extract files
+  package_url: https://www.npmjs.com/download
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16861/default_89212c2fcd02701c275bb6c77ae7dd538cd4b9f2.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/vsts/package-lock.json
+  detection_source: script/vsts/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-10-30 23:27:40.000000000 Z
+- name: electron-packager
+  description: Customize and package your Electron app with OS-specific bundles
+  package_url: https://www.npmjs.com/electron-packager
+  version: 15.4.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17433/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: steven nguyen
+  last_updated_on: 2022-02-28 15:41:56.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: DeeDeeG
+  last_updated_on: 2022-02-23 02:59:43.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 3.7.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: event-kit
+  description: Simple library for implementing and consuming evented APIs
+  package_url: https://www.npmjs.com/event-kit
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18486/default_9652e5065e42159163035bba6229d42930bb6278.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sadick
+  last_updated_on: 2021-08-25 19:07:12.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/update-server/package-lock.json
+  detection_source: script/update-server/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-09-25 21:25:21.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 0.26.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Benjamin Gray
+  last_updated_on: 2020-09-13 05:50:43.000000000 Z
+- name: fs-plus
+  description: Node's fs with more helpers
+  package_url: https://www.npmjs.com/fs-plus
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17308/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sadick
+  last_updated_on: 2021-03-05 04:48:45.000000000 Z
+- name: fstream
+  description: Advanced file system stream things
+  package_url: https://www.npmjs.com/fstream
+  version: 1.0.12
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17330/default_1e90600620937d8a59b79d4a426c6d60e5051788.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-08-15 15:24:54.000000000 Z
+- name: github
+  description: 'DEPRECATED: renamed to @octokit/rest'
+  package_url: https://www.npmjs.com/github
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16751/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sadick254
+  last_updated_on: 2021-08-20 05:02:26.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 6.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: Antonio Scandurra
+  last_updated_on: 2016-10-13 13:57:40.000000000 Z
+- name: isparta
+  description: A code coverage tool for ES6
+  package_url: https://www.npmjs.com/isparta
+  version: 4.0.0
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16219/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: istanbul-instrumenter-loader
+  description: Istanbul instrumenter loader for webpack
+  package_url: https://www.npmjs.com/istanbul-instrumenter-loader
+  version: 0.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16220/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: jasmine-reporters
+  description: Reporters for the Jasmine BDD Framework
+  package_url: https://www.npmjs.com/jasmine-reporters
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17569/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: sadick254
+  last_updated_on: 2021-05-06 19:59:49.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 0.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 0.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework
+  package_url: https://www.npmjs.com/karma-mocha
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: karma-sourcemap-loader
+  description: Karma plugin that locates and loads existing javascript source map
+    files
+  package_url: https://www.npmjs.com/karma-sourcemap-loader
+  version: 0.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16011/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  detection_source: spec/fixtures/git/repo-with-submodules/You-Dont-Need-jQuery/package.json
+  last_updated_by: joshaber
+  last_updated_on: 2016-01-07 18:05:36.000000000 Z
+- name: lodash.template
+  description: The Lodash method `_.template` exported as a module
+  package_url: https://www.npmjs.com/lodash.template
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17112/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-08-15 13:56:03.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: packages/deprecation-cop/package.json
+  last_updated_by: Steven nguyen
+  last_updated_on: 2022-01-17 08:42:03.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 3.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: sadick254
+  last_updated_on: 2021-08-16 19:18:19.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 0.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Antonio Scandurra
+  last_updated_on: 2016-07-28 15:53:03.000000000 Z
+- name: mocha-junit-reporter
+  description: A JUnit reporter for mocha
+  package_url: https://www.npmjs.com/mocha-junit-reporter
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sadick
+  last_updated_on: 2021-08-25 19:07:12.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Mazen El-Kashef
+  last_updated_on: 2020-07-16 16:18:24.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 1.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: DeeDeeG
+  last_updated_on: 2022-02-23 02:59:43.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+  - name: The `size` option isn't honored after following a redirect in node-fetch
+    cve_id: CVE-2020-15168
+    cve_url: https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+    detected_date: Aug 22
+    severity: low
+    first_patched: 2.6.1
+- name: node-uuid
+  description: Rigorous implementation of RFC4122
+  package_url: https://www.npmjs.com/node-uuid
+  version: 1.4.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16142/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: packages/exception-reporting/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-09-28 14:46:03.000000000 Z
+- name: normalize-package-data
+  description: Normalizes data that can be found in package.json files
+  package_url: https://www.npmjs.com/normalize-package-data
+  version: 2.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18641/default_47cf9c81f50087b8f8785ca33f1ee4b3b136eb76.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: steven nguyen
+  last_updated_on: 2022-02-28 15:41:56.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 6.14.13
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Kevin Sawicki
+  last_updated_on: 2013-11-21 17:43:11.000000000 Z
+- name: npm-check
+  description: Check for outdated, incorrect, and unused dependencies
+  package_url: https://www.npmjs.com/npm-check
+  version: 5.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17023/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Mazen El-Kashef
+  last_updated_on: 2020-07-16 16:18:24.000000000 Z
+- name: pegjs
+  description: Parser generator for JavaScript
+  package_url: https://www.npmjs.com/pegjs
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16881/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Nathan Sobo
+  last_updated_on: 2016-08-01 21:06:18.000000000 Z
+- name: postcss-selector-parser
+  description: "&gt; Selector parser with built in methods for working with selector
+    strings"
+  package_url: https://www.npmjs.com/postcss-selector-parser
+  version: 6.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18148/default_440caaaee595e35f6bfab82d7f75dc25a80312ce.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: DeeDeeG
+  last_updated_on: 2022-04-12 16:22:34.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: script/vsts/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-07-26 17:52:00.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched:
+- name: request-promise-native
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise-native
+  version: 1.0.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16305/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/vsts/package-lock.json
+  detection_source: script/vsts/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-07-26 17:52:00.000000000 Z
+- name: resolve
+  description: Resolve like require.resolve
+  package_url: https://www.npmjs.com/resolve
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: sadick254
+  last_updated_on: 2021-08-06 16:42:45.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: runner
+  last_updated_on: 2020-06-24 00:45:44.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 2.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Mazen El-Kashef
+  last_updated_on: 2020-07-16 16:18:24.000000000 Z
+  vulnerabilities:
+  - name: Remote code execution in simple-git
+    cve_id: CVE-2022-25860
+    cve_url: https://github.com/advisories/GHSA-9w5j-4mwv-2wj8
+    detected_date: Jan 27
+    severity: critical
+    first_patched: 3.16.0
+  - name: simple-git vulnerable to Remote Code Execution when enabling the ext transport
+      protocol
+    cve_id: CVE-2022-25912
+    cve_url: https://github.com/advisories/GHSA-9p95-fxvg-qgq2
+    detected_date: Dec 8
+    severity: high
+    first_patched: 3.15.0
+  - name: Command injection in simple-git
+    cve_id: CVE-2022-24066
+    cve_url: https://github.com/advisories/GHSA-28xr-mwxg-3qc8
+    detected_date: Apr 13
+    severity: high
+    first_patched: 3.5.0
+  - name: Command injection in simple-git
+    cve_id: CVE-2022-24433
+    cve_url: https://github.com/advisories/GHSA-3f95-r44v-8mrg
+    detected_date: Mar 18
+    severity: high
+    first_patched: 3.3.0
+- name: stack-trace
+  description: Get v8 stack traces as an array of CallSite objects
+  package_url: https://www.npmjs.com/stack-trace
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17627/default_a2ed0e6920692a262585bcb41289d278d6e5223e.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/package-lock.json
+  detection_source: packages/exception-reporting/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-09-28 14:46:03.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 11.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/packages/about/package-lock.json
+  detection_source: packages/about/package.json
+  last_updated_by: David Wilson
+  last_updated_on: 2018-08-21 19:12:43.000000000 Z
+- name: stylelint-config-standard
+  description: Standard shareable config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-standard
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-05-10 11:11:21.000000000 Z
+- name: sync-request
+  description: Make synchronous web requests
+  package_url: https://www.npmjs.com/sync-request
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17190/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: icecream17
+  last_updated_on: 2021-06-25 21:51:14.000000000 Z
+- name: temp
+  description: Temporary files and directories
+  package_url: https://www.npmjs.com/temp
+  version: 0.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: runner
+  last_updated_on: 2020-10-26 03:14:41.000000000 Z
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 3.10.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/script/package-lock.json
+  detection_source: script/package.json
+  last_updated_by: Max Brunsfeld
+  last_updated_on: 2018-08-25 00:06:50.000000000 Z
+  vulnerabilities:
+  - name: Terser insecure use of regular expressions leads to ReDoS
+    cve_id: CVE-2022-25858
+    cve_url: https://github.com/advisories/GHSA-4wf5-vphf-c2xc
+    detected_date: Jul 20
+    severity: high
+    first_patched: 4.8.1
+- name: underscore-plus
+  description: Underscore plus additional utilities
+  package_url: https://www.npmjs.com/underscore-plus
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17456/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: packages/autoflow/package.json
+  last_updated_by: Rafael Oleza
+  last_updated_on: 2019-03-29 17:11:47.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 14.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/caseyspaulding/atom/blob/master/apm/package-lock.json
+  detection_source: package.json
+  last_updated_by: runner
+  last_updated_on: 2020-10-17 03:10:53.000000000 Z
